@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRΛVΛ PLΛCE</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!-- Обнуление элементов -->
+    <link rel="stylesheet" href="css/style.css">     <!-- Стили  -->
+    <link rel="stylesheet" href="css/swiper.min.css"> <!-- Стили корневые свайпера -->
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+       <div class="header__container">
+            <div class="header__burger-container">
+                <button class="header__burger-btn">
+                    <span></span><span></span><span></span>
+                </button>
+                <div class="header__burger-menu">
+                    <ul class="header__burger-menu-descr">
+                        <li onclick="slowScroll('#sectionAfisha')" class="header__burger-link">Афиша</li>
+                        <li onclick="slowScroll('#sectionMenu')" class="header__burger-link">Меню</li>
+                        <li onclick="slowScroll('#sectionAbout')" class="header__burger-link">О нас</li>
+                        <li onclick="slowScroll('#sectionReviews')" class="header__burger-link">Отзывы</li>
+                        <li onclick="slowScroll('#sectionTeam')" class="header__burger-link">Команда</li>
+                        <li onclick="slowScroll('#sectionMap')" class="header__burger-link">Местоположение</li>
+                    </ul>
+                    <button class="header__burger-btn-sidebar">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__container__text">
+                <p class="header__name__text">
+                    TrΛvΛ
+                </p>
+                <img src="../Trava_Lounge_project/img/logo.png" alt="logo" class="header__logo">
+                <p class="header__name__text">
+                    plΛce
+                </p>
+            </div>
+
+            <div class="header__nav">
+                <a href="" class="header__tel">8 (843) 239-23-23</a>
+                <p class="header__adress">Пушкина, 15/25</p>
+            </div>
+       </div>
+    </header>
+    <main>
+        <section class="section__hero">
+            <div id="sectionAfisha" class="container section__hero__container slider-container">
+                <div class="swiper-container">
+                    <h1 class="section__hero__name">
+                        Афиша мероприятий
+                    </h1>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><div class="section__hero__content ">
+                            <div class="section__hero__info">
+                                <h1 class="section__hero__heading">
+                                    8 марта близко !
+                                </h1>
+                                <p class="section__hero__description">
+                                    Всем девчонкам с 6 по 10 марта скидка<br>25%
+                                </p>
+                                <div class="section__hero__action">
+                                    <a href="#" class="btn__slider btn__animate">
+                                        Забронировать столик
+                                    </a>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div class="swiper-slide"><div class="section__hero__content ">
+                            <div class="section__hero__info">
+                                <h1 class="section__hero__heading">
+                                    8 марта близко !
+                                </h1>
+                                <p class="section__hero__description">
+                                    Всем девчонкам с 6 по 10 марта скидка<br>25%
+                                </p>
+                                <div class="section__hero__action">
+                                    <a href="#" class="btn__slider btn__animate">
+                                        Забронировать столик
+                                    </a>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div class="swiper-slide"><div class="section__hero__content ">
+                            <div class="section__hero__info">
+                                <h1 class="section__hero__heading">
+                                    8 марта близко !
+                                </h1>
+                                <p class="section__hero__description">
+                                    Всем девчонкам с 6 по 10 марта скидка<br>25%
+                                </p>
+                                <div class="section__hero__action">
+                                    <a href="#" class="btn__slider btn__animate">
+                                        Забронировать столик
+                                    </a>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div class="swiper-slide"><div class="section__hero__content ">
+                            <div class="section__hero__info">
+                                <h1 class="section__hero__heading">
+                                    8 марта близко !
+                                </h1>
+                                <p class="section__hero__description">
+                                    Всем девчонкам с 6 по 10 марта скидка<br>25%
+                                </p>
+                                <div class="section__hero__action">
+                                    <a href="#" class="btn__slider btn__animate">
+                                        Забронировать столик
+                                    </a>
+                                </div>
+                            </div>
+                        </div></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__advantages">
+            <div class="container section__advantages__container">
+                <div class="section__advantages__praise-block">
+                    <div class="block__praise block__praise-first">
+                        <!-- Здесь дизайн первой карточки -->
+                    </div>
+                    <div class="block__praise block__praise-second">
+                        <!-- Здесь дизайн второй карточки -->
+                    </div>
+                    <div class="block__praise block__praise-three">
+                        <!-- Здесь дизайн третьей карточки -->
+                    </div>
+                </div>
+                <h1 id="sectionMenu" class="section__advantages__menu-heading">
+                    Меню
+                </h1>
+                <div class="section__advantages__menu-block tab">
+                    <div class="section__advantages__heading-menu tab-nav">
+                        <p  class="section__advantages__menu-name tab-btn tab-btn-active" data-target-id="0">Стартеры<br>и<br>салаты</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="1">Горячие<br>и<br>холодные<br>закуски</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="2">Супы<br>и<br>горячие</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="3">Тартары<br>и<br>роллы</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="4">Печь<br>и<br>хоспер</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="5">Пицца</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="6">Гарниры</p>
+                        <p  class="section__advantages__menu-name tab-btn" data-target-id="7">Десерты<br>и<br>хлеб</p>
+                    </div>
+                    <div class="section__advantages__content-menu tab-content">
+
+                        <div class="tab-pane tab-pane-show" data-id="0">
+                            <div id="out" class="section__advantages__content__menu-descr">
+                                <!-- Здесь генерируется первое меню ! -->
+                                
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" data-id="1">
+                            <div id="out_two" class="section__advantages__content__menu-descr">
+                                <!-- Здесь генерируется второе меню ! -->
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionAbout" class="section__about__us">
+            <div class="container section__about-container">
+                <div class="section__about-content">
+                    <div class="section__about-block">
+                        <div class="section__about__left-info">
+                            <p class="section__about__text-heading">
+                                О нас
+                            </p>
+                            <p class="section__about__text-descr">
+                                Мы уже существуем давно, Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores perferendis quisquam hic quod. Repellendus, officiis earum itaque rerum cupiditate cumque, laudantium minus tempore nobis omnis maiores. Sint, corrupti repellat.
+                            </p>
+                        </div>
+                        <div class="section__about__right-info">
+                            <div class="section__about__container-statistika">
+                                <div class="section__about__statistika-quar">
+                                    <img src="img/qr-code.png" alt="" class="section__about__statictika-img">
+                                </div>
+                                <div class="section__about__statistika__descr-info">
+                                    <h1 class="section__about__statistika__descr-heading">Трава</h1>
+                                    <div class="section__about__statistika__descr__quality-block">
+                                        <ul class="section__about__statistika-list">
+                                            <li class="section__about__statistika-el"><img src="img/logo__rating.png" alt="" class="section__about__statistika-logo"></li>
+                                            <li class="section__about__statistika-el"><img src="img/logo__rating.png" alt="" class="section__about__statistika-logo"></li>
+                                            <li class="section__about__statistika-el"><img src="img/logo__rating.png" alt="" class="section__about__statistika-logo"></li>
+                                            <li class="section__about__statistika-el"><img src="img/logo__rating.png" alt="" class="section__about__statistika-logo"></li>
+                                            <li class="section__about__statistika-el"><img src="img/logo__rating.png" alt="" class="section__about__statistika-logo"></li>
+                                        </ul>
+                                        <p class="section__about__statistika-number">4,8</p>
+                                        <p class="section__aboit__statistika__number-otziv">38 отзывов</p>
+                                    </div>
+                                    <a href="#" class="section__about__statistika-number">+7 (937) 299-23-27</a>
+                                    <p class="section__about__statistika-number">ул. Пушкина, 15/25, Казань
+                                    этаж Цокольный</p>
+                                    <a href="#" class="section__about__statistika__btn">Написать в Telegram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Отзывы -->
+        <section id="sectionReviews" class="section__reviews">
+            <div class="container section__reviews-container">
+                <h1 class="section__reviews-heading">Отзывы наших Гостей</h1>
+                <p class="section__reviews-descr">Гости ВЫБИРАЮТ нас !</p>
+                <div class="container__for__slider__reviews slider-container">
+                    <div class="swiper-container-reviews">
+                        <div id="out_three" class="swiper-wrapper__reviews swiper-wrapper">
+                           <!-- ЗДЕСЬ ГЕНЕРИРУЮТСЯ ОТЗЫВЫ -->
+                        </div>
+                        <div class="swiper-pagination-reviews"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Наша команда -->
+        <section id="sectionTeam" class="section__our__team">
+            <div class="container section__our__team-container">
+                <h1 class="section__our__team-heading">Наша команда</h1>
+                <div class="main__block__stickers">
+                    <div class="block__descr__stickers">
+                        <div class="swiper-text">
+                            <div class="swiper-wrapper__team swiper-wrapper">
+                                <div class="swiper-slide__team swiper-slide">
+                                    <div class="main__block__name__stickers">Полнолун</div>
+                                    <div class="main__block__descr__name__stickers">
+                                        Танцевать где угодно и когда угодно — первое правило хорошего настроения от Движуна. Если вам немного взгрустнулось, то скорее лепите его на одежду и начинайте дэнсить
+                                    </div>
+                                </div>
+                                <div class="swiper-slide__team swiper-slide">
+                                    <div class="main__block__name__stickers">Ааагонь</div>
+                                    <div class="main__block__descr__name__stickers">
+                                        Танцевать где угодно и когда угодно — первое правило хорошего настроения от Движуна. Если вам немного взгрустнулось, то скорее лепите его на одежду и начинайте дэнсить
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__img__stickers">
+                        <button class="swiper-button-prev"></button>
+                            <div class="swiper-main swiper-main2">
+                                <div class="swiper-wrapper__team__two swiper-wrapper">
+                                    <div class="swiper-slide__team swiper-slide">
+                                        <img src="img/polnolun.svg" class="main__img__stickers">
+                                    </div>
+                                    <div class="swiper-slide__team swiper-slide">
+                                        <img src="img/aagon.svg" class="main__img__stickers">
+                                    </div>
+                                </div>
+                            </div>
+                        <button class="swiper-button-next"></button>
+                    </div>
+                </div> 
+
+            </div>
+        </section>
+        <!-- Секция яндекс карты -->
+        <section id="sectionMap" class="section__map">
+            <div class="container">
+                <div class="section__map__container">
+                    <div class="section__map__container-left">
+                        <h1 class="section__map__container-heading">
+                            Мы находимся в самом центре Казани
+                        </h1>
+                        <p class="section__map__container-text-city">
+                            ул.Пушкина, 15/25
+                        </p>
+
+                        <p class="section__map__container-present">
+                            Дарим приветственный чай при забронировании стола, назвав промокод <span>'place'</span>
+                        </p>
+
+                        <div class="section__hero__action">
+                            <a href="#" class="btn__slider btn__animate">
+                                Забронировать столик
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section__map__container-right">
+                        <div class="section__map__container-block">
+                            <div id="map-test" class="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Подвал сайта -->
+    <section class="section__footer">
+        <div class="section__footer-container container">
+            <div class="section__footer__block-social">
+                <a href="#" class="section__footer__social__img-link btn__animate"><img src="img/inst__logo.png" alt="" class="section__footer__social-img"></a>
+                <a href="#" class="section__footer__social__img-link btn__animate"><img src="img/telegram__logo.png" alt="" class="section__footer__social-img"></a>
+                <a href="#" class="section__footer__social__img-link btn__animate"><img src="img/whatsapp__logo.png" alt="" class="section__footer__social-img"></a>
+            </div>
+            <div class="section__footer__block-nav">
+                <div class="footer__block-descr">
+                    <p onclick="slowScroll('#sectionAfisha')" class="footer_block__link-el">Афиша</p>
+                    <p onclick="slowScroll('#sectionMenu')" class="footer_block__link-el">Меню</p>
+                    <p onclick="slowScroll('#sectionAbout')" class="footer_block__link-el">О нас</p>
+                    <p onclick="slowScroll('#sectionReviews')" class="footer_block__link-el">Отзывы</p>
+                    <p onclick="slowScroll('#sectionTeam')" class="footer_block__link-el">Команда</p>
+                    <p onclick="slowScroll('#sectionMap')" class="footer_block__link-el">Местоположение</p>
+                </div>
+            </div>
+            <div class="section__footer__block-heading">
+                <div class="header__container__text">
+                    <p class="header__name__text">
+                        TrΛvΛ
+                    </p>
+                    <img src="../Trava_Lounge_project/img/logo.png" alt="logo" class="header__logo">
+                    <p class="header__name__text">
+                        plΛce
+                    </p>
+                </div>
+            </div>
+            <div class="section__footer__block-avtor">
+                <a href="#" class="section__footer__avtor-name">Разработал: Александр Зайнутдинов</a> <!--Автора трогать нельзя -->
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="js/left_menu.js"></script> <!-- Боковое меню бургер -->
+    <script src="js/dynamic__massivs/slider__reviews.js"></script> <!-- Слайдер отзывы -->
+    <script src="js/swiper.min.js"></script> <!-- Слайдер подкапотка -->
+    <script src="js/swiper.js"></script> <!-- Функционал для слайдеров -->
+    <script src="js/swiper__team.js"></script> <!-- Слайдер для команды -->
+    <script src="js/dynamic__massivs/eat__massivs/1__menu.js"></script> <!-- Динамическое добавление первого меню -->
+    <script src="js/dynamic__massivs/eat__massivs/2__menu.js"></script> <!-- Динамическое добавление второго меню -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7dbc38f3-9019-49d2-88b5-1e8c710d2d3e&lang=ru_RU"></script> <!-- Апи яндекс карт -->
+    <script src="js/yandex__map.js"></script> <!-- Функционал яндекс карты, местоположение -->
+    <script src="js/tab_btn.js"></script> <!-- Функционал табов, переключение меню -->
+    <script>
+         function slowScroll(id) {
+        var targetElement = document.querySelector(id);
+
+        if (targetElement) {
+            var targetOffset = targetElement.offsetTop;
+            var duration = 500; // milliseconds
+            var startTime = performance.now();
+            var startScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            function scrollStep(timestamp) {
+                var progress = timestamp - startTime;
+                var easeInOutQuad = function(t) { return t<.5 ? 2*t*t : -1+(4-2*t)*t }; // Easing function
+
+                window.scrollTo(0, startScrollTop + easeInOutQuad(Math.min(progress/duration, 1)) * (targetOffset - startScrollTop));
+
+                if (progress < duration) {
+                    requestAnimationFrame(scrollStep);
+                }
+            }
+
+            requestAnimationFrame(scrollStep);
+        }
+    }
+    </script>
+</body>
+</html>
